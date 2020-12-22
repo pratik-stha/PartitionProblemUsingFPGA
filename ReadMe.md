@@ -5,5 +5,10 @@ In number theory and computer science, the partition problem, or number partitio
 * Tutorial_full : <b>"Tutorial_full.txt"</b> consists of detail steps to do this project from the scratch. It includes creating own IP core, creating own overlay design and then implementing in Python using Jupyter Notebook in PYNQ.
 * Tutorial_short: <b>"Tutorial_short.txt"</b>consists of short quick guide to use the overlay and implement it in the Jupyter Notebook in PYNQ.
 * Vivado HLS code:<b>"PartitionHLS.cpp"</b>consists of the HLS code that is required to create own HLS for this project. The program consists of several pragmas that is used to optimize the performance. The HLS is then used to generate IP core which is then used to create overlay.
-* Jupyter Notebook File: This file consists of implementation of created overlay using Python. 
-* Overlay:"CheckPartition.bit" and "CheckPartition.hwh" are the two overlay files that needs to be imported using Python to implement this project. 
+* Jupyter Notebook File: <b>"PartitionProblem.ipynb"</b> consists of implementation of created overlay using Python. 
+* Overlay:<b>"CheckPartition.bit"</b> and <b>"CheckPartition.hwh"</b> are the two overlay files that needs to be imported using Python to implement this project. 
+
+# What is needed?
+* PYNQ board from Xilinx inc.(with USB and ethernet cable)
+* Vivado Design Suite
+* Vivado HLS
