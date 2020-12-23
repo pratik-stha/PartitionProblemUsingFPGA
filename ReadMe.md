@@ -4,7 +4,7 @@ In number theory and computer science, the partition problem, or number partitio
 This is one of the very time consuming problem in the realm of computer science. As the set gets larger the execution time gets extremely longer. I tried to write my code to solve this problem in Python and it took me 15 minutes to solve the array set of size 25. So, how can we make it faster? Well, there are couple of ways to make it faster. We can certainly optimize the algorithm, use multicore CPUs, use GPUs or implement this in FPGA. Thus, in this tutorial our main focus is to implement this solution in FPGA.
 
 # High Recommendation
-I highly recommend to try our tutorials from these videos before starting over with this project. 
+I highly recommend to try out tutorials from following videos before starting over with this project. 
 * <a href = "https://www.youtube.com/watch?v=Dupyek4NUoI"> video 1 </a>
 * <a href = "https://www.youtube.com/watch?v=4WnFQFHrtkg&t=466s"> video 2 </a>
 
