@@ -1,5 +1,13 @@
 # Introduction
-In number theory and computer science, the partition problem, or number partitioning, is the task of deciding whether a given multiset ‘S’ of positive integers can be partitioned into two subsets S1 and S2 such that the sum of the numbers in S1 equals the sum of the numbers in S2. In this project, the same task is done using the HLS. An IP overlay is created using Vivado HLS and is implemented in Xilinx PYNQ. An array size is 25 for this project which means it can partition the set of 25 numbers. The execution time for this project has been obtained as around 8.05 seconds which in contrast it is 1000 seconds if implemented only using Python. Thus, this way the execution time of the problem is accelerated.
+In number theory and computer science, the partition problem, or number partitioning, is the task of deciding whether a given multiset ‘S’ of positive integers can be partitioned into two subsets S1 and S2 such that the sum of the numbers in S1 equals the sum of the numbers in S2. For example, we have set S = {1,2,4,5}. Can it be divided into two subsets so that the sum of their elements are equal? Here, the answer is YES as it can be partitioned as S1 = {1,5} and S2={4,2} as in both the sets the sum is equal to 6. Can we do same with the set S={1,2,100,3}? No, we cannot as this set. 
+
+This is one of the very time consuming problem in the realm of computer science. As the set gets larger the execution time gets extremely longer. I tried to write my code to solve this problem in Python and it took me 15 minutes to solve the array set of size 25. So, how can we make it faster? Well, there are couple of ways to make it faster. We can certainly optimize the algorithm, use multicore CPUs, use GPUs or implement this in FPGA. Thus, in this tutorial our main focus is to implement this solution in FPGA.
+
+# High Recommendation
+I highly recommend to try our tutorials from these videos before starting over with this project. 
+* <a href = "https://www.youtube.com/watch?v=Dupyek4NUoI"> video 1 </a>
+* <a href = "https://www.youtube.com/watch?v=4WnFQFHrtkg&t=466s"> video 2 </a>
+
 
 # What is included?
 * Tutorial_full : <b>"Tutorial_full.docx"</b> consists of detail steps to do this project from the scratch. It includes creating own IP core, creating own overlay design and then implementing in Python using Jupyter Notebook in PYNQ.
